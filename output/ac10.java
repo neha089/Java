@@ -68,7 +68,7 @@ public class ac10 {
             System.out.print(a[i]);
           }
           boolean x=true;
-          for(int i=0;i<size-1;i++){
+          for(int i=0;i<size-1;i++){ //! if you write here size then it will be out of bound thats why its show as expection
             
               if(a[i]>a[i+1]){
               x=false;
@@ -76,7 +76,7 @@ public class ac10 {
               }
             
           }
-          System.out.println(x);
+          // System.out.println(x);
           if(x)
           System.out.println("its sorted");
           else
