@@ -72,7 +72,7 @@
 //TODO: insertion  short
 // find smallest then put it in first place and change position of smllest with forst emements   
 // then agina find small agian swap
-// worst case o(n^  2)--> time complexity
+// time complexity O(n^2)
 
 package output;
 import java.util.*;
